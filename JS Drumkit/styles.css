@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+}
+
+.container  {
+  height:100vh;
+  width: 100vw;
+  background-image: url(images/drum_kit.jpg);
+  background-size: contain;
+  padding-top: 30px;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: 'Bangers', cursive;
+  text-shadow: 3px 0 #1D54BF;
+  letter-spacing: 0.6rem;
+
+}
+
+button {
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #ff00b3;
+  text-shadow: 3px 3px #1D54BF;
+}
+
+.images {
+  width: 100%;
+  color: reds;
+}
+footer {
+  color: #fcfcfc;
+  font-family: sans-serif;
+  margin-top: 20px;
+}
+
+.a {
+  background-image: url("images/kick.png");
+  background-size: cover;
+}
+
+.s {
+  background-image: url("images/snare.png");
+  background-size: cover;
+}
+
+.f {
+  background-image: url("images/hi-hats.png");
+  background-size: cover;
+} 
+
+.r {
+  background-image: url("images/tom1.png");
+  background-size: cover;
+} 
+
+.t {
+  background-image: url("images/tom2.png");
+  background-size: cover;
+}
+
+.y {
+  background-image: url("images/tom3.png");
+  background-size: cover;
+
+}
+
+.d {
+  background-image: url("images/hand-clap.png");
+  background-size: cover;
+
+}
+
+.w {
+  background-image: url("images/crash.png");
+  background-size: cover;
+
+}
+
+.set {
+  margin: 5% auto;
+  width: 95%;
+}
+
+
+.drum {
+  outline: none;
+  border: 5px solid hsl(220, 74%, 43%);
+  border-radius: 10px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin: 0 10px;
+  background-color: white;
+}
+
+.pressed {
+  border: 4px solid white;
+  background-color: rgba(69, 52, 219, 0.527);
+  box-shadow: 0 0 4px 7px #C5A26C;
+  transform: scale(1.1);
+}
